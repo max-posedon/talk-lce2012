@@ -1,0 +1,78 @@
+\documentclass{beamer}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+
+\begin{document}
+
+\title{LinuxCon Europe 2012\\most interesting\\IMHO}
+\author{Maksim Melnikau (max\_posedon)}
+\institute{Linux Mobile hobbyist\\World of Tanks developer}
+\date{\today}
+\frame{\titlepage}
+
+\frame{
+    \frametitle{Common}
+    \begin{itemize}
+    \item Linux is very important in Intel. http://01.org
+    \item We work for different companies but we have the same spirit - we are one big Linux family (c) Rafl Flaxa, SUSE
+    \item OSHW: 3d Printers printing pieces for make 3d printers awesome!! They make himselfs
+    \item Linus Torvalds Focuses His Keynote On Community Participation. Literally. http://bit.ly/SB2uzj
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{System}
+    \begin{itemize}
+    \item FreeIPA integrated with Microsoft Active Directory "out-of-the box"
+    \item Challenges for Linux networking http://lwn.net/Articles/523058/
+    \item Volunteer participation going down, enterprise participation up (c) Jon Corbet, http://LWN.net
+    \item V4L2 supports TV tuners, webcams, video capture, output devices
+    \item Tracing: General Open Issues: KABI, Scalability, Code Injection, Embedded community
+    \item There is no any reason to write fbdev drivers nowadays, DRM have full superset of features now
+    \item The economics of cloud computing - run many tasks on single server - memory becomes a bottleneck
+    \item Rygel - UPnP Rendereer and AV-server
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Resource Management}
+    \begin{itemize}
+    \item The failure of operating systems and how we can fix it http://lwn.net/Articles/524952/
+    \item Systemd two years on http://lwn.net/Articles/523113/
+    \item Checkpoint/restore in user space: are we there yet? http://lwn.net/Articles/525675/
+    \item cgroups - the hearth of all Linux container virtualization techs
+    \item HP: resource isolation on 160 threads, 4TB RAM, dozen of disks
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Cloud}
+    \begin{itemize}
+    \item In very short term, a common version of Linux will be avail on any class of device (c) Mark Shuttleworth
+    \item Evernote do calculations, going to private saves them about 75\% of costs (c) Dave Engberg
+    \item Linux Application Stacks: Security from SELINUX, QoS from CGROUPS, LXC
+    \item People goes to private clouds from public clouds and data-center
+    \item OpenStack: Compute, Networkoing, Storage, Dashboard
+    \item oVirt - focused on KVM, management tool with Web UI
+    \item OpenStack 4 opens: Source, Design, Devlopment, Community
+    \item Shared FS - Normal business for Linux: network NFS/CIFS; shared disk OCFS2, GFS2; parallel/distributed: Ceph/GlusterFS
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Bonus}
+    \begin{itemize}
+    \item Realtime, present and future https://lwn.net/Articles/524329/
+    \item Don't play dice with random numbers http://lwn.net/Articles/525459/
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Questions and Answers}
+    \begin{itemize}
+    \item email: maxposedon@gmail.com
+    \end{itemize}
+}
+
+\end{document}
